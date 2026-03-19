@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article | Site</title>
-    <link>https://lanawx.github.io/site/publication_types/article/</link>
-      <atom:link href="https://lanawx.github.io/site/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/site/publication_types/article/</link>
+      <atom:link href="http://localhost:1313/site/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lanawx.github.io/site/media/icon_hu_da05098ef60dc2e7.png</url>
+      <url>http://localhost:1313/site/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>Article</title>
-      <link>https://lanawx.github.io/site/publication_types/article/</link>
+      <link>http://localhost:1313/site/publication_types/article/</link>
     </image>
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://lanawx.github.io/site/publications/preprint/</link>
+      <link>http://localhost:1313/site/publications/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://lanawx.github.io/site/publications/preprint/</guid>
+      <guid>http://localhost:1313/site/publications/preprint/</guid>
       <description>&lt;p&gt;This work is driven by the results in my 
  on LLMs.&lt;/p&gt;
 
