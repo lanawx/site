@@ -14,6 +14,10 @@
   <url>
     <loc>http://localhost:1313/site/courses/hugo-blox/guide/configuration/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>http://localhost:1313/site/blog/</loc><lastmod>2026-03-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/site/blog/git/</loc><lastmod>2026-03-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>http://localhost:1313/site/tags/course/</loc><lastmod>2025-09-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/site/courses/</loc><lastmod>2025-09-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -25,8 +29,6 @@
     <loc>http://localhost:1313/site/tags/</loc><lastmod>2025-09-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/site/blog/notebook-onboarding/</loc><lastmod>2024-07-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/site/blog/</loc><lastmod>2024-07-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/site/tags/jupyter/</loc><lastmod>2024-07-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -114,4 +116,6 @@
   <url>
     <loc>http://localhost:1313/site/courses/hugo-blox/guide/formatting/toggle/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/site/courses/hugo-blox/guide/formatting/steps/</loc><changefreq>weekly</changefreq></url></urlset>
+    <loc>http://localhost:1313/site/courses/hugo-blox/guide/formatting/steps/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/site/blog/week/</loc><changefreq>weekly</changefreq></url></urlset>

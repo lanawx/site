@@ -409,7 +409,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-758342169&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-163487529&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -427,7 +427,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-758342169&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-163487529&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -848,7 +848,7 @@ Crash --&gt; [*]
   
 
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;&#34;&gt;Dr. Alex Johnson&lt;/a&gt;&lt;/span&gt;
+    &lt;span &gt;&lt;a href=&#34;&#34;&gt;Милана Мартынова&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2019).
   &lt;a href=&#34;http://localhost:1313/site/publications/preprint/&#34; class=&#34;underline&#34;&gt;An example preprint / working paper&lt;/a&gt;.
@@ -1151,7 +1151,7 @@ Crash --&gt; [*]
   
 
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;&#34;&gt;Dr. Alex Johnson&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
+    &lt;span &gt;&lt;a href=&#34;&#34;&gt;Милана Мартынова&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
           &lt;button
             @mouseenter=&#34;tooltip = true&#34;
             @mouseleave=&#34;tooltip = false&#34;
