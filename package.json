@@ -14,6 +14,18 @@
     "@tailwindcss/typography": "^0.5.10",
     "pagefind": "^1.4.0",
     "preact": "^10.27.2",
-    "tailwindcss": "^4.1.12"
-  }
+    "tailwindcss": "^4.2.2"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanawx/site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanawx/site/issues"
+  },
+  "homepage": "https://github.com/lanawx/site#readme"
 }
