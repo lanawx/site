@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paper-Conference | </title>
-    <link>https://example.com/publication_types/paper-conference/</link>
-      <atom:link href="https://example.com/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <title>Paper-Conference | Site</title>
+    <link>https://lanawx.github.io/site/publication_types/paper-conference/</link>
+      <atom:link href="https://lanawx.github.io/site/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url>
+      <url>https://lanawx.github.io/site/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>Paper-Conference</title>
-      <link>https://example.com/publication_types/paper-conference/</link>
+      <link>https://lanawx.github.io/site/publication_types/paper-conference/</link>
     </image>
     
     <item>
       <title>An example conference paper</title>
-      <link>https://example.com/publications/conference-paper/</link>
+      <link>https://lanawx.github.io/site/publications/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/conference-paper/</guid>
+      <guid>https://lanawx.github.io/site/publications/conference-paper/</guid>
       <description>
 
 

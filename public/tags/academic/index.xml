@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic | </title>
-    <link>https://example.com/tags/academic/</link>
-      <atom:link href="https://example.com/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <title>Academic | Site</title>
+    <link>https://lanawx.github.io/site/tags/academic/</link>
+      <atom:link href="https://lanawx.github.io/site/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url>
+      <url>https://lanawx.github.io/site/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>Academic</title>
-      <link>https://example.com/tags/academic/</link>
+      <link>https://lanawx.github.io/site/tags/academic/</link>
     </image>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>https://example.com/blog/get-started/</link>
+      <link>https://lanawx.github.io/site/blog/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/get-started/</guid>
+      <guid>https://lanawx.github.io/site/blog/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -303,9 +303,9 @@
     
     <item>
       <title>Create Beautiful Presentations with Markdown</title>
-      <link>https://example.com/events/example/</link>
+      <link>https://lanawx.github.io/site/events/example/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/events/example/</guid>
+      <guid>https://lanawx.github.io/site/events/example/</guid>
       <description>&lt;h2 id=&#34;-why-markdown-slides&#34;&gt;🎯 Why Markdown Slides?&lt;/h2&gt;
 
 
@@ -790,7 +790,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-7519dfcc27cf03dd985a63a0b9a6155b&#34;
-    href=&#34;https://example.com/slides/example/&#34;
+    href=&#34;https://lanawx.github.io/site/slides/example/&#34;
     target=&#34;_blank&#34;
     rel=&#34;noopener&#34;
     

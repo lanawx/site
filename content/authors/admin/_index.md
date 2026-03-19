@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Highlight the author in author lists?
-highlight_name = true
+highlight_name: true
 
 # Role/position/tagline
 role: Студентка
