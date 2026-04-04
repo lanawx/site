@@ -14,7 +14,11 @@
   <url>
     <loc>http://localhost:1313/site/courses/hugo-blox/guide/configuration/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/site/blog/</loc><lastmod>2026-03-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:1313/site/blog/</loc><lastmod>2026-04-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/site/blog/week2/</loc><lastmod>2026-04-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/site/blog/markdown/</loc><lastmod>2026-04-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/site/blog/git/</loc><lastmod>2026-03-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
