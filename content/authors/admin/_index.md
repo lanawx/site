@@ -30,6 +30,25 @@ organizations:
 # Short bio
 bio: "I want it, I got it"
 
+# Social network links
+profiles:
+  - icon:
+  - url: https://www.elibrary.ru/project_user_office.asp
+  - icon:
+  - url: https://scholar.google.com/
+  - icon:
+  - url: https://orcid.org/0009-0007-4281-9064
+  - icon: 
+  - url: 'https://www.mendeley.com/'
+  - icon: 
+  - url: 'https://www.mendeley.com/'
+  - icon: 
+  - url: 'https://independent.academia.edu/lanawx'
+  - icon:
+  - url: 'https://info.arxiv.org/'
+  - icon: 
+  - url: 'https://github.com/lanawx'
+
 # Interests
 interests:
   - лакорны
