@@ -30,24 +30,26 @@ organizations:
 # Short bio
 bio: "I want it, I got it"
 
+
 # Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon:
-  - url: https://www.elibrary.ru/project_user_office.asp
-  - icon:
-  - url: https://scholar.google.com/
-  - icon:
-  - url: https://orcid.org/0009-0007-4281-9064
-  - icon: 
-  - url: 'https://www.mendeley.com/'
-  - icon: 
-  - url: 'https://www.mendeley.com/'
-  - icon: 
-  - url: 'https://independent.academia.edu/lanawx'
-  - icon:
-  - url: 'https://info.arxiv.org/'
-  - icon: 
-  - url: 'https://github.com/lanawx'
+  - icon: brands/github
+    url: https://github.com/lanawx
+  - icon: brands/ebook
+    url: https://www.elibrary.ru/project_user_office.asp
+  - icon: brands/scholar
+    url: https://scholar.google.com/
+  - icon: brands/orcid
+    url: https://orcid.org/0009-0007-4281-9064
+  - icon: brands/mendeley
+    url: https://www.mendeley.com/
+  - icon: brands/research
+    url: https://www.researchgate.net/profile/Milana-Martynova?ev=hdr_xprf
+  - icon: brands/academia
+    url: https://independent.academia.edu/lanawx
+  - icon: brands/arxiv
+    url: https://info.arxiv.org/
 
 # Interests
 interests:

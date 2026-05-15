@@ -33,6 +33,26 @@ education:
     end: 2029-06-30
     summary:
     
+    
+links:
+  - icon: gh
+    link: https://github.com/lanawx
+  - icon: el
+    link: https://www.elibrary.ru/project_user_office.asp
+  - icon: gs
+    link: https://scholar.google.com/
+  - icon: or
+    link: https://orcid.org/0009-0007-4281-9064
+  - icon: m
+    url: https://www.mendeley.com/
+  - icon: r
+    url: https://www.researchgate.net/profile/Milana-Martynova?ev=hdr_xprf
+  - icon: in
+    url: https://independent.academia.edu/lanawx
+  - icon: ia
+    url: https://info.arxiv.org/      
+    
+  
 experience:
   - role: student
     org: "Компьютерные и информационные науки"
@@ -57,7 +77,7 @@ languages:
 awards:
   - title: "Золотой знак отличия Всероссийского физкультурно-спортивного комплекса 'Готов к труду и обороне'(ГТО)"
     date: "2025-01-01"
-  - title: "Премия имени Ю. А. Гагарина 1 стерени"
+  - title: "Премия имени Ю. А. Гагарина 1 степени"
     awarder: "Муниципальное образование 'Шумячский район' Смоленской области"
     date: "2023-03-31"
     summary: "За достижения в изучении предметов, высокие показатели в спорте, за участие в олимпиадах, научно-исследовательской работе, художественном творчестве и общественной жизни школы."
