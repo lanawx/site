@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Site</title>
+    <title>Доклады и мероприятия | Сайт</title>
     <link>http://localhost:1313/site/events/</link>
       <atom:link href="http://localhost:1313/site/events/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
+    <description>Доклады и мероприятия</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/site/media/icon_hu_da05098ef60dc2e7.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
+      <title>Доклады и мероприятия</title>
       <link>http://localhost:1313/site/events/</link>
     </image>
     

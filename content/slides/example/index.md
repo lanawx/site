@@ -1,9 +1,9 @@
 ---
-title: "Example Talk: Recent Work"
+title: "Пример доклада: недавние работы"
 date: 2024-01-01
 # `type: slides` is inferred from folder, but can be set explicitly:
 type: slides
-summary: "A quick tour of recent research highlights: multimodal LLMs, efficient training, and responsible AI."
+summary: "Краткий обзор из шаблона: мультимодальные LLM, эффективное бучение и ответственный ИИ"
 slides:
   theme: black  # Options: black, white, league, beige, sky, night, serif, simple, solarized
   highlight_style: dracula  # Code syntax highlighting theme

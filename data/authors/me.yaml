@@ -7,7 +7,7 @@ name:
   family: Мартынова
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: she/her
+  pronouns: она/её
 postnominals:
   - PhD
   - MIEEE
@@ -23,7 +23,7 @@ affiliations:
 interests:
   - Лакорны
   - Фанфики
-  - Сталкерство
+  - Книги
   - Видеомонтаж
 
 education:
@@ -35,26 +35,32 @@ education:
     
     
 links:
-  - icon: gh
+  - icon: brands/github
     link: https://github.com/lanawx
-  - icon: el
+    label: github
+  - icon: hero/book-open
     link: https://www.elibrary.ru/project_user_office.asp
-  - icon: gs
+    label: elibrary
+  - icon: hero/book-open
     link: https://scholar.google.com/
-  - icon: or
+    label: google-scholar
+  - icon: academicons/orcid
     link: https://orcid.org/0009-0007-4281-9064
-  - icon: m
+    label: orcid
+  - icon: brands/mendeley
     url: https://www.mendeley.com/
-  - icon: r
+    label: mendeley
+  - icon: brands/researchgate
     url: https://www.researchgate.net/profile/Milana-Martynova?ev=hdr_xprf
-  - icon: in
+    label: researchgate
+  - icon: academicons/academia
     url: https://independent.academia.edu/lanawx
-  - icon: ia
-    url: https://info.arxiv.org/      
+  - icon: hero/book-open
+    url: https://info.arxiv.org/  
+    label: infoarxiv
     
-  
 experience:
-  - role: student
+  - role: Студентка
     org: "Компьютерные и информационные науки"
     start: 2025-09-01
     
