@@ -5,12 +5,58 @@
     <link>http://localhost:1313/site/blog/</link>
       <atom:link href="http://localhost:1313/site/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Блог</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/site/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>Блог</title>
       <link>http://localhost:1313/site/blog/</link>
     </image>
+    
+    <item>
+      <title>Week in Review: May 18–24, 2026</title>
+      <link>http://localhost:1313/site/blog/week5/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/site/blog/week5/</guid>
+      <description>&lt;h2 id=&#34;what-happened&#34;&gt;What happened&lt;/h2&gt;
+&lt;h3 id=&#34;birthdays&#34;&gt;Birthdays&lt;/h3&gt;
+&lt;p&gt;This week we celebrated my friends&amp;rsquo; birthdays.&lt;/p&gt;
+&lt;h2 id=&#34;plans-for-next-week&#34;&gt;Plans for next week&lt;/h2&gt;
+&lt;p&gt;Next week I plan to meet all deadlines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How I Take Notes in Obsidian</title>
+      <link>http://localhost:1313/site/blog/obsidian/</link>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/site/blog/obsidian/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Obsidian is a powerful tool for creating a linked note-taking system. Unlike regular text editors, it allows you to establish connections between ideas and build a knowledge graph.&lt;/p&gt;
+&lt;h2 id=&#34;why-obsidian-instead-of-notion-or-evernote&#34;&gt;Why Obsidian instead of Notion or Evernote?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Local storage:&lt;/strong&gt; all notes are stored on your computer as plain Markdown files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed:&lt;/strong&gt; instant search and note opening.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Free for personal use.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Links:&lt;/strong&gt; bidirectional links between notes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-i-structure-my-notes&#34;&gt;How I structure my notes&lt;/h2&gt;
+&lt;h3 id=&#34;1-atomic-notes&#34;&gt;1. Atomic notes&lt;/h3&gt;
+&lt;p&gt;One note — one idea or concept. For example, instead of one large &amp;ldquo;Discrete Mathematics&amp;rdquo; note, I create separate notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Graphs.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Trees.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Dijkstra&#39;s Algorithm.md&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-moc-maps-of-content&#34;&gt;2. MOC (Maps of Content)&lt;/h3&gt;
+&lt;p&gt;I create maps of content — notes that collect links to other notes on a topic:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Discrete Mathematics
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; [[Graphs]]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; [[Trees]]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; [[Dijkstra&amp;#39;s Algorithm]]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; [[Combinatorics]]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>Scientific Programming Languages: What to Choose in 2026?</title>
