@@ -1,22 +1,73 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# Multilingual site: English + Russian
+# Docs: https://gohugo.io/content-management/multilingual/
 
-# Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  languageName: English
+  contentDir: content/en
+  weight: 1
+  title: Milana Martynova
+  menus:
+    main:
+      - identifier: home
+        name: About
+        pageRef: /
+        weight: 10
+      - identifier: News
+        name: News
+        pageRef: /blog
+        weight: 11
+      - identifier: Experience
+        name: Experience
+        pageRef: /experience
+        weight: 20
+      - identifier: projects
+        name: Projects
+        pageRef: /projects
+        weight: 30
+  params:
+    description: "First-year student"
+    hugoblox:
+      identity:
+        name: "Milana Martynova"
+        description: "Hello everyone! My name is Milana. I'm a first-year student. I study and live in Moscow. I was born and raised in the Smolensk region. In the last two academic years at school, I've accomplished more than I did in the rest of my school life."
+      locale:
+        date_format: "Jan 2, 2006"
+        time_format: "3:04 PM"
+        address_format: en-us
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+ru:
+  languageCode: ru-ru
+  languageName: Русский
+  contentDir: content/ru
+  weight: 2
+  title: Милана Мартынова
+  menus:
+    main:
+      - identifier: home
+        name: Обо мне
+        pageRef: /
+        weight: 10
+      - identifier: news
+        name: Новости
+        pageRef: /blog
+        weight: 11
+      - identifier: experience
+        name: Опыт
+        pageRef: /experience
+        weight: 20
+      - identifier: projects
+        name: Проекты
+        pageRef: /projects
+        weight: 30
+  params:
+    description: "Студентка 1 курса"
+    hugoblox:
+      identity:
+        name: "Милана Мартынова"
+        description: "Всем привет! Меня зовут Милана. Я студентка 1 курса. Учусь и живу в Москве. Родилась и выросла в Смоленской области. В последние два учебных года в школе сделала больше, чем за всю остальную школьную жизнь."
+      locale:
+        date_format: "02.01.2006"
+        time_format: "15:04"
+        # HugoBlox ships address_formats only for a fixed set; use en-us until ru is added to data/address_formats.toml
+        address_format: en-us

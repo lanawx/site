@@ -1,0 +1,90 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Милана Мартынова
+  given: Милана
+  family: Мартынова
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: она/её
+postnominals:
+  - PhD
+  - MIEEE
+status:
+  icon: ""
+role: Студентка
+bio: |
+  Всем привет! Меня зовут Милана. Я студентка 1 курса. Учусь и живу в Москве. Родилась и выросла в Смоленской области. В последние два учебных года в школе сделала больше, чем за всю остальную школьную жизнь.
+affiliations:
+  - name: РУДН
+    url:
+
+interests:
+  - Лакорны
+  - Фанфики
+  - Книги
+  - Видеомонтаж
+
+education:
+  - degree:
+    institution: РУДН
+    start: 2025-09-01
+    end: 2029-06-30
+    summary:
+    
+    
+links:
+  - icon: brands/github
+    link: https://github.com/lanawx
+    label: github
+  - icon: hero/book-open
+    link: https://www.elibrary.ru/project_user_office.asp
+    label: elibrary
+  - icon: hero/book-open
+    link: https://scholar.google.com/
+    label: google-scholar
+  - icon: academicons/orcid
+    link: https://orcid.org/0009-0007-4281-9064
+    label: orcid
+  - icon: brands/mendeley
+    url: https://www.mendeley.com/
+    label: mendeley
+  - icon: brands/researchgate
+    url: https://www.researchgate.net/profile/Milana-Martynova?ev=hdr_xprf
+    label: researchgate
+  - icon: academicons/academia
+    url: https://independent.academia.edu/lanawx
+  - icon: hero/book-open
+    url: https://info.arxiv.org/  
+    label: infoarxiv
+    
+experience:
+  - role: Студентка
+    org: "Компьютерные и информационные науки"
+    start: 2025-09-01
+    
+skills:
+  - name: Навыки
+    items:
+      - label: Языки
+        level: 4
+      - label: Коммуникация
+        level: 5
+      - label: Актерское мастерство
+        level: 4
+
+languages:
+  - name: English
+    level: 4
+  - name: Русский
+    level: 5
+    
+awards:
+  - title: "Золотой знак отличия Всероссийского физкультурно-спортивного комплекса 'Готов к труду и обороне'(ГТО)"
+    date: "2025-01-01"
+  - title: "Премия имени Ю. А. Гагарина 1 степени"
+    awarder: "Муниципальное образование 'Шумячский район' Смоленской области"
+    date: "2023-03-31"
+    summary: "За достижения в изучении предметов, высокие показатели в спорте, за участие в олимпиадах, научно-исследовательской работе, художественном творчестве и общественной жизни школы."
+  

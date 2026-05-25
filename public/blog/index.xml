@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Блог | Сайт</title>
+    <title>Блог | Milana Martynova</title>
     <link>http://localhost:1313/site/blog/</link>
       <atom:link href="http://localhost:1313/site/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Блог</description>
@@ -13,38 +13,25 @@
     </image>
     
     <item>
-      <title>Итоги недели: 11–16 мая 2026</title>
-      <link>http://localhost:1313/site/blog/week4/</link>
-      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/site/blog/week4/</guid>
-      <description>&lt;h2 id=&#34;что-было&#34;&gt;Что было&lt;/h2&gt;
-&lt;h3 id=&#34;завершение-моей-любимой-дисциплины&#34;&gt;Завершение моей любимой дисциплины&lt;/h3&gt;
-&lt;p&gt;На этой неделе мы написали вторую контрольную по дисциплине &amp;ldquo;Математическая логика&amp;rdquo;. И на этом завершили её изучение, к моему сожалению. Екатерина Викторовна, я Вас люблю, Вы лучшая!&lt;/p&gt;
-&lt;h2 id=&#34;планы-на-следующую-неделю&#34;&gt;Планы на следующую неделю&lt;/h2&gt;
-&lt;p&gt;На следующей неделе у моей подруги день рождения, будем поздравлять и отмечать, и будем отмечать день рождения моей ещё одной подруги. Ко мне приедут родители, и мне должны будут назначить дату операции)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Языки научного программирования: что выбрать в 2026?</title>
+      <title>Scientific Programming Languages: What to Choose in 2026?</title>
       <link>http://localhost:1313/site/blog/languages/</link>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/blog/languages/</guid>
-      <description>&lt;h2 id=&#34;введение&#34;&gt;Введение&lt;/h2&gt;
-&lt;p&gt;Научное программирование — важный инструмент современного исследователя. Правильный выбор языка позволяет ускорить обработку данных, визуализацию и анализ результатов.&lt;/p&gt;
-&lt;h2 id=&#34;обзор-языков&#34;&gt;Обзор языков&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Scientific programming is an essential tool for modern researchers. Choosing the right language can accelerate data processing, visualization, and analysis of results.&lt;/p&gt;
+&lt;h2 id=&#34;language-overview&#34;&gt;Language Overview&lt;/h2&gt;
 &lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Плюсы:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Огромная экосистема библиотек: NumPy, SciPy, Matplotlib, Pandas, Scikit-learn.&lt;/li&gt;
-&lt;li&gt;Простота изучения и читаемый код.&lt;/li&gt;
-&lt;li&gt;Активное сообщество.&lt;/li&gt;
+&lt;li&gt;Huge ecosystem of libraries: NumPy, SciPy, Matplotlib, Pandas, Scikit-learn.&lt;/li&gt;
+&lt;li&gt;Ease of learning and readable code.&lt;/li&gt;
+&lt;li&gt;Active community.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Минусы:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Медленнее компилируемых языков (но есть Cython, Numba, PyPy).&lt;/li&gt;
+&lt;li&gt;Slower than compiled languages (but there are Cython, Numba, PyPy).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Пример кода&lt;/strong&gt; (численное интегрирование):&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Code example&lt;/strong&gt; (numerical integration):&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
@@ -56,153 +43,166 @@
     </item>
     
     <item>
-      <title>Итоги недели: 27 апреля–1 мая 2026</title>
-      <link>http://localhost:1313/site/blog/week3/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/site/blog/week3/</guid>
-      <description>&lt;h2 id=&#34;что-произошло-за-неделю&#34;&gt;Что произошло за неделю&lt;/h2&gt;
-&lt;h3 id=&#34;закрытие-дедлайнов&#34;&gt;Закрытие дедлайнов&lt;/h3&gt;
-&lt;p&gt;Я выполнила все задания и получила новые знания, которые помогут мне в будущем.&lt;/p&gt;
-&lt;h3 id=&#34;встреча-с-друзьями&#34;&gt;Встреча с друзьями&lt;/h3&gt;
-&lt;p&gt;Я встретилась с друзьями, мы вместе гуляли, готовили и общались на разные темы.&lt;/p&gt;
-&lt;h2 id=&#34;планы-на-следующую-неделю&#34;&gt;Планы на следующую неделю&lt;/h2&gt;
-&lt;p&gt;На следующей неделе я пойду домой, увижусь с родителями и лучшей подругой.&lt;/p&gt;
+      <title>Week in Review: May 11–16, 2026</title>
+      <link>http://localhost:1313/site/blog/week4/</link>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/site/blog/week4/</guid>
+      <description>&lt;h2 id=&#34;what-happened&#34;&gt;What happened&lt;/h2&gt;
+&lt;h3 id=&#34;the-end-of-my-favorite-subject&#34;&gt;The end of my favorite subject&lt;/h3&gt;
+&lt;p&gt;This week we wrote the second test in the discipline &amp;ldquo;Mathematical Logic&amp;rdquo;. And with that, we completed its study, much to my regret. Ekaterina Viktorovna, I love you, you are the best!&lt;/p&gt;
+&lt;h2 id=&#34;plans-for-next-week&#34;&gt;Plans for next week&lt;/h2&gt;
+&lt;p&gt;Next week is my friend&amp;rsquo;s birthday — we will congratulate her and celebrate. We will also celebrate another friend&amp;rsquo;s birthday. My parents are coming to visit me, and I should be given a surgery date.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Работа с библиографией: инструменты и лучшие практики</title>
+      <title>Week in Review: April 27 – May 1, 2026</title>
+      <link>http://localhost:1313/site/blog/week3/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/site/blog/week3/</guid>
+      <description>&lt;h2 id=&#34;what-happened-during-the-week&#34;&gt;What happened during the week&lt;/h2&gt;
+&lt;h3 id=&#34;meeting-deadlines&#34;&gt;Meeting deadlines&lt;/h3&gt;
+&lt;p&gt;I completed all assignments and gained new knowledge that will help me in the future.&lt;/p&gt;
+&lt;h3 id=&#34;meeting-with-friends&#34;&gt;Meeting with friends&lt;/h3&gt;
+&lt;p&gt;I met up with friends; we walked together, cooked, and talked about various topics.&lt;/p&gt;
+&lt;h2 id=&#34;plans-for-next-week&#34;&gt;Plans for next week&lt;/h2&gt;
+&lt;p&gt;Next week I will go home, see my parents and my best friend.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Working with Bibliography: Tools and Best Practices</title>
       <link>http://localhost:1313/site/blog/bibliography/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/blog/bibliography/</guid>
-      <description>&lt;h2 id=&#34;введение&#34;&gt;Введение&lt;/h2&gt;
-&lt;p&gt;Грамотное оформление библиографии — основа научной работы. Современные инструменты позволяют автоматизировать сбор, хранение и цитирование источников.&lt;/p&gt;
-&lt;h2 id=&#34;системы-управления-библиографией&#34;&gt;Системы управления библиографией&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Proper bibliography formatting is the foundation of academic work. Modern tools make it possible to automate the collection, storage, and citation of sources.&lt;/p&gt;
+&lt;h2 id=&#34;bibliography-management-systems&#34;&gt;Bibliography Management Systems&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;Инструмент&lt;/th&gt;
-          &lt;th&gt;Платформы&lt;/th&gt;
-          &lt;th&gt;Импорт из DOI/BibTeX&lt;/th&gt;
-          &lt;th&gt;Бесплатный&lt;/th&gt;
-          &lt;th&gt;Интеграция с Word/Google Docs&lt;/th&gt;
+          &lt;th&gt;Tool&lt;/th&gt;
+          &lt;th&gt;Platforms&lt;/th&gt;
+          &lt;th&gt;Import from DOI/BibTeX&lt;/th&gt;
+          &lt;th&gt;Free&lt;/th&gt;
+          &lt;th&gt;Integration with Word/Google Docs&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;Zotero&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;Windows, Mac, Linux, Web&lt;/td&gt;
-          &lt;td&gt;Да&lt;/td&gt;
-          &lt;td&gt;Да (до 300 МБ облачного хранилища)&lt;/td&gt;
-          &lt;td&gt;Да&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;Yes (up to 300 MB cloud storage)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;Mendeley&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;Windows, Mac, Linux, Web&lt;/td&gt;
-          &lt;td&gt;Да&lt;/td&gt;
-          &lt;td&gt;Да (2 ГБ облачного хранилища)&lt;/td&gt;
-          &lt;td&gt;Да&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;Yes (2 GB cloud storage)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;EndNote&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;Windows, Mac, Web&lt;/td&gt;
-          &lt;td&gt;Да&lt;/td&gt;
-          &lt;td&gt;Нет (платный)&lt;/td&gt;
-          &lt;td&gt;Да&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;No (paid)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;JabRef&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;Java (кроссплатформенный)&lt;/td&gt;
-          &lt;td&gt;Да&lt;/td&gt;
-          &lt;td&gt;Да&lt;/td&gt;
-          &lt;td&gt;Ограниченная&lt;/td&gt;
+          &lt;td&gt;Java (cross-platform)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;Limited&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;интеграция-с-hugo-academic&#34;&gt;Интеграция с Hugo Academic&lt;/h2&gt;
-&lt;p&gt;В теме &lt;code&gt;wowchemy/starter-hugo-academic&lt;/code&gt; поддерживается автоматический импорт публикаций из файла &lt;code&gt;.bib&lt;/code&gt; (BibTeX).&lt;/p&gt;
-&lt;h3 id=&#34;пошаговая-инструкция&#34;&gt;Пошаговая инструкция&lt;/h3&gt;
+&lt;h2 id=&#34;integration-with-hugo-academic&#34;&gt;Integration with Hugo Academic&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;wowchemy/starter-hugo-academic&lt;/code&gt; theme supports automatic import of publications from a &lt;code&gt;.bib&lt;/code&gt; (BibTeX) file.&lt;/p&gt;
+&lt;h3 id=&#34;step-by-step-instructions&#34;&gt;Step-by-Step Instructions&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Экспортировать публикации&lt;/strong&gt; из Zotero/Mendeley в формате BibTeX (&lt;code&gt;.bib&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Export publications&lt;/strong&gt; from Zotero/Mendeley in BibTeX format (&lt;code&gt;.bib&lt;/code&gt;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Поместить файл&lt;/strong&gt; &lt;code&gt;publications.bib&lt;/code&gt; в папку &lt;code&gt;assets/&lt;/code&gt; или &lt;code&gt;data/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Place the file&lt;/strong&gt; &lt;code&gt;publications.bib&lt;/code&gt; in the &lt;code&gt;assets/&lt;/code&gt; or &lt;code&gt;data/&lt;/code&gt; folder.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Запустить команду&lt;/strong&gt; Hugo для генерации страниц публикаций:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Hugo
+&lt;p&gt;&lt;strong&gt;Run the Hugo command&lt;/strong&gt; to generate publication pages:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>Моя неделя</title>
-      <link>http://localhost:1313/site/blog/week2/</link>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/site/blog/week2/</guid>
-      <description>&lt;h2 id=&#34;что-произошло&#34;&gt;Что произошло&lt;/h2&gt;
-&lt;p&gt;На этой неделе я написала конрльную работу по дисциплине &amp;ldquo;Дискретная математика и математическая логика&amp;rdquo;, коллоквиум по дисциплине &amp;ldquo;Символьные методы математического анализа&amp;rdquo;, а также вместе со своей группой по английскому языку посетила мероприятие &amp;ldquo;День культуры суахили&amp;rdquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Язык разметки Markdown</title>
+      <title>Markdown Markup Language</title>
       <link>http://localhost:1313/site/blog/markdown/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/blog/markdown/</guid>
-      <description>&lt;h2 id=&#34;что-такое-языки-разметки&#34;&gt;Что такое языки разметки?&lt;/h2&gt;
-&lt;p&gt;Языки разметки — это способ описания структуры и оформления документа с помощью специальных символов. В отличие от визуальных редакторов (Word, Google Docs), здесь вы пишете обычный текст, а затем программа преобразует его в итоговый формат — HTML, PDF, DOCX и другие.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;what-are-markup-languages&#34;&gt;What are markup languages?&lt;/h2&gt;
+&lt;p&gt;Markup languages are a way to describe the structure and formatting of a document using special symbols. Unlike visual editors (Word, Google Docs), you write plain text, and then a program converts it into the final format — HTML, PDF, DOCX, and others.&lt;/p&gt;
 &lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
-&lt;p&gt;Самый популярный лёгкий язык разметки. Используется везде: GitHub, Notion, Obsidian, чаты, блоги.&lt;/p&gt;
-&lt;p&gt;Особенности:&lt;/p&gt;
+&lt;p&gt;The most popular lightweight markup language. Used everywhere: GitHub, Notion, Obsidian, chats, blogs.&lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Синтаксис учится за 10 минут&lt;/li&gt;
-&lt;li&gt;Не нужна компиляция&lt;/li&gt;
-&lt;li&gt;Легко превращается в HTML/PDF&lt;/li&gt;
+&lt;li&gt;Syntax can be learned in 10 minutes&lt;/li&gt;
+&lt;li&gt;No compilation required&lt;/li&gt;
+&lt;li&gt;Easily converts to HTML/PDF&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;примеры-синтаксиса&#34;&gt;Примеры синтаксиса&lt;/h2&gt;
+&lt;h2 id=&#34;syntax-examples&#34;&gt;Syntax examples&lt;/h2&gt;
 &lt;h1 id=&#34;markdown-1&#34;&gt;Markdown:&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Заголовок
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*курсив* и &lt;span class=&#34;gs&#34;&gt;**жирный**&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Список
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[&lt;span class=&#34;nt&#34;&gt;ссылка&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://example.com&lt;/span&gt;)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Heading
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*italic* and &lt;span class=&#34;gs&#34;&gt;**bold**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; List
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://example.com&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>Управление версиями .Git</title>
+      <title>My Week</title>
+      <link>http://localhost:1313/site/blog/week2/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/site/blog/week2/</guid>
+      <description>&lt;h2 id=&#34;what-happened&#34;&gt;What happened&lt;/h2&gt;
+&lt;p&gt;This week I wrote a test in the discipline &amp;ldquo;Discrete Mathematics and Mathematical Logic&amp;rdquo;, took part in a colloquium in the discipline &amp;ldquo;Symbolic Methods of Mathematical Analysis&amp;rdquo;, and also, together with my English language group, attended the &amp;ldquo;Swahili Culture Day&amp;rdquo; event.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Git Version Control</title>
       <link>http://localhost:1313/site/blog/git/</link>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/blog/git/</guid>
-      <description>&lt;h2 id=&#34;что-такое-git&#34;&gt;Что такое Git?&lt;/h2&gt;
-&lt;p&gt;Git - это распределенная система управления версиями, которая позволяет отслеживать изменения в файлах и координировать работу над проектами нескольких человек.&lt;/p&gt;
-&lt;h2 id=&#34;основные-команды-git&#34;&gt;Основные команды Git&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Инициализация репозитория&lt;/span&gt;
+      <description>&lt;h2 id=&#34;what-is-git&#34;&gt;What is Git?&lt;/h2&gt;
+&lt;p&gt;Git is a distributed version control system that allows you to track changes in files and coordinate work on projects among multiple people.&lt;/p&gt;
+&lt;h2 id=&#34;basic-git-commands&#34;&gt;Basic Git Commands&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Initialize a repository&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Добавление файлов в индекс&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Add files to the staging area&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Создание коммита&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Сообщение коммита&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Create a commit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Commit message&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Отправка изменений на удалённый репозиторий&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Push changes to a remote repository&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin main
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Получение изменений из удалённого репозитория&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Pull changes from a remote repository&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>Моя неделя</title>
+      <title>My Week</title>
       <link>http://localhost:1313/site/blog/week/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/blog/week/</guid>
-      <description>&lt;h2 id=&#34;что-произошло&#34;&gt;Что произошло&lt;/h2&gt;
-&lt;p&gt;На этой неделе я была дома у родителей, увиделась с лучшей подругой, и мы с ней сходили поздравить с 8 марта наших учителей)&lt;/p&gt;
+      <description>&lt;h2 id=&#34;what-happened&#34;&gt;What happened&lt;/h2&gt;
+&lt;p&gt;This week I was at my parents&amp;rsquo; house, met up with my best friend, and we went to congratulate our teachers on March 8th.&lt;/p&gt;
 </description>
     </item>
     

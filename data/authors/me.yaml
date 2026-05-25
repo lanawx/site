@@ -1,39 +1,36 @@
+---
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Милана Мартынова
-  given: Милана
-  family: Мартынова
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: она/её
+  display: Milana Martynova
+  given: Milana
+  family: Martynova
+  alternate: ''
+  pronunciation: ''
+  pronouns: she/her
 postnominals:
   - PhD
   - MIEEE
 status:
   icon: ""
-role: Студентка
+role: Student
 bio: |
-  Всем привет! Меня зовут Милана. Я студентка 1 курса. Учусь и живу в Москве. Родилась и выросла в Смоленской области. В последние два учебных года в школе сделала больше, чем за всю остальную школьную жизнь.
+  Hi everyone! My name is Milana. I am a first-year student. I study and live in Moscow. I was born and raised in the Smolensk region. In the last two years of school, I accomplished more than in all my previous school years combined.
 affiliations:
-  - name: РУДН
-    url:
-
+  - name: RUDN University
+    url: ""
 interests:
-  - Лакорны
-  - Фанфики
-  - Книги
-  - Видеомонтаж
-
+  - Lakorns
+  - Fanfiction
+  - Books
+  - Video editing
 education:
-  - degree:
-    institution: РУДН
+  - degree: ""
+    institution: RUDN University
     start: 2025-09-01
     end: 2029-06-30
-    summary:
-    
-    
+    summary: ""
 links:
   - icon: brands/github
     link: https://github.com/lanawx
@@ -48,43 +45,41 @@ links:
     link: https://orcid.org/0009-0007-4281-9064
     label: orcid
   - icon: brands/mendeley
-    url: https://www.mendeley.com/
+    link: https://www.mendeley.com/
     label: mendeley
   - icon: brands/researchgate
-    url: https://www.researchgate.net/profile/Milana-Martynova?ev=hdr_xprf
+    link: https://www.researchgate.net/profile/Milana-Martynova
     label: researchgate
   - icon: academicons/academia
-    url: https://independent.academia.edu/lanawx
+    link: https://independent.academia.edu/lanawx
+    label: academia
   - icon: hero/book-open
-    url: https://info.arxiv.org/  
-    label: infoarxiv
-    
+    link: https://info.arxiv.org/
+    label: arxiv
 experience:
-  - role: Студентка
-    org: "Компьютерные и информационные науки"
+  - role: Student
+    org: Computer and Information Sciences
     start: 2025-09-01
-    
 skills:
-  - name: Навыки
+  - name: Skills
     items:
-      - label: Языки
+      - label: Languages
         level: 4
-      - label: Коммуникация
+      - label: Communication
         level: 5
-      - label: Актерское мастерство
+      - label: Acting
         level: 4
-
 languages:
   - name: English
     level: 4
-  - name: Русский
+  - name: Russian
     level: 5
-    
 awards:
-  - title: "Золотой знак отличия Всероссийского физкультурно-спортивного комплекса 'Готов к труду и обороне'(ГТО)"
+  - title: "Golden Badge of the All-Russian Physical Culture and Sports Complex 'Ready for Labor and Defense' (GTO)"
     date: "2025-01-01"
-  - title: "Премия имени Ю. А. Гагарина 1 степени"
-    awarder: "Муниципальное образование 'Шумячский район' Смоленской области"
+  - title: "Yuri A. Gagarin Prize, 1st Degree"
+    awarder: "Municipal Formation 'Shumyachsky District' of the Smolensk Region"
     date: "2023-03-31"
-    summary: "За достижения в изучении предметов, высокие показатели в спорте, за участие в олимпиадах, научно-исследовательской работе, художественном творчестве и общественной жизни школы."
+    summary: "For achievements in academic subjects, high athletic performance, participation in Olympiads, research work, artistic creativity, and public life at school."
+---
   

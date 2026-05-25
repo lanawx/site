@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slides | Сайт</title>
+    <title>Slides | Milana Martynova</title>
     <link>http://localhost:1313/site/slides/</link>
       <atom:link href="http://localhost:1313/site/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Пример доклада: недавние работы</title>
+      <title>Example Talk: Recent work</title>
       <link>http://localhost:1313/site/slides/example/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/slides/example/</guid>

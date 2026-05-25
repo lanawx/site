@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic | Сайт</title>
+    <title>Academic | Milana Martynova</title>
     <link>http://localhost:1313/site/tags/academic/</link>
       <atom:link href="http://localhost:1313/site/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
@@ -13,49 +13,49 @@
     </image>
     
     <item>
-      <title>Персональный сайт на Hugo Academic</title>
+      <title>Personal Website on Hugo Academic</title>
       <link>http://localhost:1313/site/projects/pro/</link>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/projects/pro/</guid>
-      <description>&lt;h2 id=&#34;задачи-проекта&#34;&gt;Задачи проекта&lt;/h2&gt;
-&lt;p&gt;Настроить окружение Hugo (установка, создание сайта, подключение темы). Связать локальный репозиторий с GitHub. Настроить секцию social с академическими профилями (ORCID, Google Scholar, Mendeley, eLibrary). Добавить кастомные иконки при необходимости. Настроить деплой через GitHub Pages.&lt;/p&gt;
-&lt;h2 id=&#34;выполненные-шаги&#34;&gt;Выполненные шаги&lt;/h2&gt;
-&lt;h3 id=&#34;1-установка-hugo-extended&#34;&gt;1. Установка Hugo Extended&lt;/h3&gt;
-&lt;p&gt;В системе использовалась команда:&lt;/p&gt;
+      <description>&lt;h2 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h2&gt;
+&lt;p&gt;Set up the Hugo environment (installation, site creation, theme integration). Connect the local repository to GitHub. Configure the social section with academic profiles (ORCID, Google Scholar, Mendeley, eLibrary). Add custom icons if necessary. Set up deployment via GitHub Pages.&lt;/p&gt;
+&lt;h2 id=&#34;steps-completed&#34;&gt;Steps Completed&lt;/h2&gt;
+&lt;h3 id=&#34;1-installing-hugo-extended&#34;&gt;1. Installing Hugo Extended&lt;/h3&gt;
+&lt;p&gt;The following command was used in the system:&lt;/p&gt;
 &lt;p&gt;sudo apt update &amp;amp;&amp;amp; sudo apt install hugo &amp;amp;&amp;amp; hugo version&lt;/p&gt;
-&lt;h3 id=&#34;2-создание-нового-сайта&#34;&gt;2. Создание нового сайта&lt;/h3&gt;
+&lt;h3 id=&#34;2-creating-a-new-site&#34;&gt;2. Creating a new site&lt;/h3&gt;
 &lt;p&gt;hugo new site my-site &amp;amp;&amp;amp; cd my-site&lt;/p&gt;
-&lt;h3 id=&#34;3-инициализация-git-и-подключение-темы-academic-cv&#34;&gt;3. Инициализация Git и подключение темы Academic CV&lt;/h3&gt;
+&lt;h3 id=&#34;3-initializing-git-and-adding-the-academic-cv-theme&#34;&gt;3. Initializing Git and adding the Academic CV theme&lt;/h3&gt;
 &lt;p&gt;git init &amp;amp;&amp;amp; git submodule add 
  themes/blox-builder&lt;/p&gt;
-&lt;h3 id=&#34;4-настройка-конфигурации&#34;&gt;4. Настройка конфигурации&lt;/h3&gt;
-&lt;p&gt;Были отредактированы следующие файлы в папке config/_default/:&lt;/p&gt;
-&lt;p&gt;hugo.yaml (базовые параметры сайта):
+&lt;h3 id=&#34;4-configuration-setup&#34;&gt;4. Configuration setup&lt;/h3&gt;
+&lt;p&gt;The following files in the config/_default/ folder were edited:&lt;/p&gt;
+&lt;p&gt;hugo.yaml (basic site parameters):
 baseURL: &amp;ldquo;
 
-title: &amp;ldquo;Персональный сайт&amp;rdquo;
+title: &amp;ldquo;Personal Website&amp;rdquo;
 enableGitInfo: true&lt;/p&gt;
-&lt;p&gt;params.yaml (параметры темы):
+&lt;p&gt;params.yaml (theme parameters):
 appearance:
 theme_day: &amp;ldquo;minimal&amp;rdquo;
 theme_night: &amp;ldquo;minimal&amp;rdquo;
 font: &amp;ldquo;minimal&amp;rdquo;
 font_size: &amp;ldquo;l&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;menus.yaml (меню навигации):
+&lt;p&gt;menus.yaml (navigation menu):
 main:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;name: &amp;ldquo;Главная&amp;rdquo;
+&lt;li&gt;name: &amp;ldquo;Home&amp;rdquo;
 url: &amp;ldquo;/&amp;rdquo;
 weight: 10&lt;/li&gt;
-&lt;li&gt;name: &amp;ldquo;Проекты&amp;rdquo;
+&lt;li&gt;name: &amp;ldquo;Projects&amp;rdquo;
 url: &amp;ldquo;/project/&amp;rdquo;
 weight: 30&lt;/li&gt;
-&lt;li&gt;name: &amp;ldquo;Посты&amp;rdquo;
+&lt;li&gt;name: &amp;ldquo;Posts&amp;rdquo;
 url: &amp;ldquo;/post/&amp;rdquo;
 weight: 40&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;5-добавление-профилей-в-authorsadmin_indexmd&#34;&gt;5. Добавление профилей в authors/admin/_index.md&lt;/h3&gt;
-&lt;p&gt;В секцию social были добавлены следующие ссылки:&lt;/p&gt;
+&lt;h3 id=&#34;5-adding-profiles-to-authorsadmin_indexmd&#34;&gt;5. Adding profiles to authors/admin/_index.md&lt;/h3&gt;
+&lt;p&gt;The following links were added to the social section:&lt;/p&gt;
 &lt;p&gt;social:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;icon: &amp;ldquo;orcid&amp;rdquo;
@@ -75,8 +75,8 @@ icon_pack: &amp;ldquo;fab&amp;rdquo;
 link: &amp;ldquo;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;6-настройка-деплоя-через-github-pages&#34;&gt;6. Настройка деплоя через GitHub Pages&lt;/h3&gt;
-&lt;p&gt;В корне сайта создан файл .github/workflows/hugo.yaml со следующим содержимым:&lt;/p&gt;
+&lt;h3 id=&#34;6-setting-up-deployment-via-github-pages&#34;&gt;6. Setting up deployment via GitHub Pages&lt;/h3&gt;
+&lt;p&gt;A file .github/workflows/hugo.yaml was created in the site root with the following content:&lt;/p&gt;
 &lt;p&gt;name: Deploy Hugo site to Pages
 on:
 push:
@@ -113,16 +113,16 @@ runs-on: ubuntu-latest
 needs: build
 steps:
 - uses: actions/deploy-pages@v4&lt;/p&gt;
-&lt;h3 id=&#34;7-публикация&#34;&gt;7. Публикация&lt;/h3&gt;
-&lt;p&gt;После каждого git push сайт автоматически собирается и становится доступен по адресу: 
+&lt;h3 id=&#34;7-publishing&#34;&gt;7. Publishing&lt;/h3&gt;
+&lt;p&gt;After each git push, the site is automatically built and becomes available at: 
 &lt;/p&gt;
-&lt;h2 id=&#34;результат&#34;&gt;Результат&lt;/h2&gt;
-&lt;p&gt;Сайт полностью функционирует. Иконки социальных сетей отображаются корректно. Добавлены посты и страницы проектов. Настроен автоматический деплой.&lt;/p&gt;
-&lt;h2 id=&#34;использованные-ресурсы&#34;&gt;Использованные ресурсы&lt;/h2&gt;
-&lt;p&gt;Документация Hugo (
-, Тема Academic CV (
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;The site is fully functional. Social network icons display correctly. Posts and project pages have been added. Automatic deployment is configured.&lt;/p&gt;
+&lt;h2 id=&#34;resources-used&#34;&gt;Resources Used&lt;/h2&gt;
+&lt;p&gt;Hugo Documentation (
+, Academic CV Theme (
 , GitHub Pages + Hugo (
-, FontAwesome иконки (
+, FontAwesome Icons (
 , Academic Icons (
 )&lt;/p&gt;
 </description>

@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Проекты | Сайт</title>
+    <title>Projects | Milana Martynova</title>
     <link>http://localhost:1313/site/projects/</link>
       <atom:link href="http://localhost:1313/site/projects/index.xml" rel="self" type="application/rss+xml" />
-    <description>Проекты</description>
+    <description>Projects</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/site/media/icon_hu_da05098ef60dc2e7.png</url>
-      <title>Проекты</title>
+      <title>Projects</title>
       <link>http://localhost:1313/site/projects/</link>
     </image>
     
     <item>
-      <title>Организация удалённой работы: SSH, tmux и безопасность</title>
+      <title>Organizing Remote Work: SSH, tmux, and Security</title>
       <link>http://localhost:1313/site/projects/pro2/</link>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/projects/pro2/</guid>
-      <description>&lt;h2 id=&#34;введение&#34;&gt;Введение&lt;/h2&gt;
-&lt;p&gt;Удалённая работа с серверами — неотъемлемая часть работы исследователя и разработчика. Правильная настройка SSH, использование tmux для долгих сессий и соблюдение мер безопасности позволяют работать эффективно и не терять прогресс даже при разрывах соединения.&lt;/p&gt;
-&lt;h2 id=&#34;ssh-безопасное-подключение-к-удалённому-серверу&#34;&gt;SSH: безопасное подключение к удалённому серверу&lt;/h2&gt;
-&lt;p&gt;SSH (Secure Shell) — протокол для безопасного удалённого управления серверами.&lt;/p&gt;
-&lt;h3 id=&#34;базовая-команда-подключения&#34;&gt;Базовая команда подключения&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Remote work with servers is an integral part of a researcher&amp;rsquo;s and developer&amp;rsquo;s workflow. Proper SSH configuration, using tmux for long-running sessions, and adhering to security measures allow you to work efficiently and not lose progress even when connections are interrupted.&lt;/p&gt;
+&lt;h2 id=&#34;ssh-secure-connection-to-a-remote-server&#34;&gt;SSH: Secure Connection to a Remote Server&lt;/h2&gt;
+&lt;p&gt;SSH (Secure Shell) is a protocol for secure remote server management.&lt;/p&gt;
+&lt;h3 id=&#34;basic-connection-command&#34;&gt;Basic connection command&lt;/h3&gt;
 &lt;p&gt;ssh username@server_ip_or_domain&lt;/p&gt;
-&lt;h3 id=&#34;настройка-ssh-ключей-для-входа-без-пароля&#34;&gt;Настройка SSH-ключей для входа без пароля&lt;/h3&gt;
-&lt;p&gt;Генерация ключевой пары (на локальной машине):
+&lt;h3 id=&#34;setting-up-ssh-keys-for-passwordless-login&#34;&gt;Setting up SSH keys for passwordless login&lt;/h3&gt;
+&lt;p&gt;Generate a key pair (on the local machine):
 ssh-keygen -t ed25519 -C &amp;ldquo;
 &amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Копирование публичного ключа на сервер:
+&lt;p&gt;Copy the public key to the server:
 ssh-copy-id username@server_ip&lt;/p&gt;
-&lt;p&gt;После этого вход будет происходить без запроса пароля.&lt;/p&gt;
-&lt;h3 id=&#34;отключение-входа-по-паролю-на-сервере-для-усиления-безопасности&#34;&gt;Отключение входа по паролю на сервере (для усиления безопасности)&lt;/h3&gt;
-&lt;p&gt;Редактировать файл /etc/ssh/sshd_config:
+&lt;p&gt;After this, login will proceed without a password prompt.&lt;/p&gt;
+&lt;h3 id=&#34;disabling-password-login-on-the-server-for-enhanced-security&#34;&gt;Disabling password login on the server (for enhanced security)&lt;/h3&gt;
+&lt;p&gt;Edit the file /etc/ssh/sshd_config:
 PasswordAuthentication no
 PubkeyAuthentication yes&lt;/p&gt;
-&lt;p&gt;Затем перезапустить SSH: sudo systemctl restart sshd&lt;/p&gt;
-&lt;h3 id=&#34;проброс-портов-туннелирование&#34;&gt;Проброс портов (туннелирование)&lt;/h3&gt;
-&lt;p&gt;Локальный проброс (доступ к удалённому сервису через локальный порт):
+&lt;p&gt;Then restart SSH: sudo systemctl restart sshd&lt;/p&gt;
+&lt;h3 id=&#34;port-forwarding-tunneling&#34;&gt;Port forwarding (tunneling)&lt;/h3&gt;
+&lt;p&gt;Local forwarding (access a remote service via a local port):
 ssh -L 8080:localhost:80 username@server_ip&lt;/p&gt;
-&lt;p&gt;Удалённый проброс (доступ к локальному сервису с сервера):
+&lt;p&gt;Remote forwarding (access a local service from the server):
 ssh -R 9090:localhost:3000 username@server_ip&lt;/p&gt;
-&lt;h2 id=&#34;tmux-терминальный-мультиплексор&#34;&gt;tmux: терминальный мультиплексор&lt;/h2&gt;
-&lt;p&gt;tmux позволяет создавать и управлять несколькими сессиями терминала, которые продолжают работать после отключения от сервера.&lt;/p&gt;
-&lt;h3 id=&#34;основные-команды&#34;&gt;Основные команды&lt;/h3&gt;
-&lt;p&gt;Создать новую сессию: tmux new -s session_name&lt;/p&gt;
-&lt;p&gt;Отсоединиться от сессии (сессия остаётся в фоне): Ctrl+B, затем D&lt;/p&gt;
-&lt;p&gt;Посмотреть список сессий: tmux ls&lt;/p&gt;
-&lt;p&gt;Подключиться к существующей сессии: tmux attach -t session_name&lt;/p&gt;
-&lt;p&gt;Убить сессию: tmux kill-session -t session_name&lt;/p&gt;
-&lt;h3 id=&#34;горячие-клавиши-внутри-сессии-префикс-ctrlb-по-умолчанию&#34;&gt;Горячие клавиши внутри сессии (префикс Ctrl+B по умолчанию)&lt;/h3&gt;
-&lt;p&gt;Создать новое окно: Ctrl+B, затем C&lt;/p&gt;
-&lt;p&gt;Переключиться между окнами: Ctrl+B, затем номер окна (0, 1, 2&amp;hellip;) или Ctrl+B, затем N (следующее) / P (предыдущее)&lt;/p&gt;
-&lt;p&gt;Разделить панель горизонтально: Ctrl+B, затем &amp;quot;&lt;/p&gt;
-&lt;p&gt;Разделить панель вертикально: Ctrl+B, затем %&lt;/p&gt;
-&lt;p&gt;Переключиться между панелями: Ctrl+B, затем стрелки&lt;/p&gt;
-&lt;p&gt;Закрыть текущую панель: Ctrl+B, затем X (подтвердить Y)&lt;/p&gt;
-&lt;h3 id=&#34;пример-рабочего-процесса&#34;&gt;Пример рабочего процесса&lt;/h3&gt;
-&lt;p&gt;Подключиться к серверу через SSH, запустить tmux new -s research, внутри запустить долгий расчёт (например, python train_model.py), отсоединиться от сессии (Ctrl+B, затем D), закрыть SSH-соединение. Через несколько часов снова подключиться к серверу через SSH и выполнить tmux attach -t research, чтобы увидеть прогресс расчёта.&lt;/p&gt;
-&lt;h2 id=&#34;дополнительные-меры-безопасности&#34;&gt;Дополнительные меры безопасности&lt;/h2&gt;
-&lt;p&gt;Использовать нестандартный порт для SSH (изменить Port 22 на Port 2222 в /etc/ssh/sshd_config). Запретить вход для root (PermitRootLogin no). Использовать Fail2ban для блокировки IP после нескольких неудачных попыток входа. Регулярно обновлять SSH-сервер (sudo apt update &amp;amp;&amp;amp; sudo apt upgrade openssh-server). Настроить двухфакторную аутентификацию (google-authenticator).&lt;/p&gt;
-&lt;h2 id=&#34;полезные-команды-для-диагностики&#34;&gt;Полезные команды для диагностики&lt;/h2&gt;
-&lt;p&gt;Проверка активных SSH-подключений на сервере: who | grep pts&lt;/p&gt;
-&lt;p&gt;Проверка логов SSH: sudo journalctl -u ssh -f&lt;/p&gt;
-&lt;p&gt;Тестирование подключения с подробным выводом: ssh -vvv username@server_ip&lt;/p&gt;
-&lt;h2 id=&#34;результаты&#34;&gt;Результаты&lt;/h2&gt;
-&lt;p&gt;Настроен безопасный SSH-доступ к серверу с использованием ключей и отключённым входом по паролю. Организован рабочий процесс с tmux для долгих вычислительных задач. Внедрены дополнительные меры защиты: смена порта, запрет root-логина, Fail2ban.&lt;/p&gt;
-&lt;h2 id=&#34;полезные-ссылки&#34;&gt;Полезные ссылки&lt;/h2&gt;
-&lt;p&gt;Документация OpenSSH (
+&lt;h2 id=&#34;tmux-terminal-multiplexer&#34;&gt;tmux: Terminal Multiplexer&lt;/h2&gt;
+&lt;p&gt;tmux allows you to create and manage multiple terminal sessions that continue running after disconnecting from the server.&lt;/p&gt;
+&lt;h3 id=&#34;basic-commands&#34;&gt;Basic commands&lt;/h3&gt;
+&lt;p&gt;Create a new session: tmux new -s session_name&lt;/p&gt;
+&lt;p&gt;Detach from a session (session remains in the background): Ctrl+B, then D&lt;/p&gt;
+&lt;p&gt;List sessions: tmux ls&lt;/p&gt;
+&lt;p&gt;Attach to an existing session: tmux attach -t session_name&lt;/p&gt;
+&lt;p&gt;Kill a session: tmux kill-session -t session_name&lt;/p&gt;
+&lt;h3 id=&#34;hotkeys-inside-a-session-prefix-ctrlb-by-default&#34;&gt;Hotkeys inside a session (prefix Ctrl+B by default)&lt;/h3&gt;
+&lt;p&gt;Create a new window: Ctrl+B, then C&lt;/p&gt;
+&lt;p&gt;Switch between windows: Ctrl+B, then window number (0, 1, 2&amp;hellip;) or Ctrl+B, then N (next) / P (previous)&lt;/p&gt;
+&lt;p&gt;Split panel horizontally: Ctrl+B, then &amp;quot;&lt;/p&gt;
+&lt;p&gt;Split panel vertically: Ctrl+B, then %&lt;/p&gt;
+&lt;p&gt;Switch between panels: Ctrl+B, then arrow keys&lt;/p&gt;
+&lt;p&gt;Close the current panel: Ctrl+B, then X (confirm with Y)&lt;/p&gt;
+&lt;h3 id=&#34;example-workflow&#34;&gt;Example workflow&lt;/h3&gt;
+&lt;p&gt;Connect to the server via SSH, run tmux new -s research, inside run a long computation (e.g., python train_model.py), detach from the session (Ctrl+B, then D), close the SSH connection. After a few hours, reconnect to the server via SSH and run tmux attach -t research to see the computation progress.&lt;/p&gt;
+&lt;h2 id=&#34;additional-security-measures&#34;&gt;Additional Security Measures&lt;/h2&gt;
+&lt;p&gt;Use a non-standard port for SSH (change Port 22 to Port 2222 in /etc/ssh/sshd_config). Disable root login (PermitRootLogin no). Use Fail2ban to block IPs after several failed login attempts. Regularly update the SSH server (sudo apt update &amp;amp;&amp;amp; sudo apt upgrade openssh-server). Set up two-factor authentication (google-authenticator).&lt;/p&gt;
+&lt;h2 id=&#34;useful-diagnostic-commands&#34;&gt;Useful Diagnostic Commands&lt;/h2&gt;
+&lt;p&gt;Check active SSH connections on the server: who | grep pts&lt;/p&gt;
+&lt;p&gt;Check SSH logs: sudo journalctl -u ssh -f&lt;/p&gt;
+&lt;p&gt;Test connection with verbose output: ssh -vvv username@server_ip&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Secure SSH access to the server has been configured using keys with password login disabled. A workflow with tmux for long-running computational tasks has been established. Additional security measures have been implemented: port change, root login prohibition, Fail2ban.&lt;/p&gt;
+&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;OpenSSH Documentation (
 , tmux handbook (
-, руководство по Fail2ban (
+, Fail2ban Guide (
 , SSH best practices (
 )&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Персональный сайт на Hugo Academic</title>
+      <title>Personal Website on Hugo Academic</title>
       <link>http://localhost:1313/site/projects/pro/</link>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/projects/pro/</guid>
-      <description>&lt;h2 id=&#34;задачи-проекта&#34;&gt;Задачи проекта&lt;/h2&gt;
-&lt;p&gt;Настроить окружение Hugo (установка, создание сайта, подключение темы). Связать локальный репозиторий с GitHub. Настроить секцию social с академическими профилями (ORCID, Google Scholar, Mendeley, eLibrary). Добавить кастомные иконки при необходимости. Настроить деплой через GitHub Pages.&lt;/p&gt;
-&lt;h2 id=&#34;выполненные-шаги&#34;&gt;Выполненные шаги&lt;/h2&gt;
-&lt;h3 id=&#34;1-установка-hugo-extended&#34;&gt;1. Установка Hugo Extended&lt;/h3&gt;
-&lt;p&gt;В системе использовалась команда:&lt;/p&gt;
+      <description>&lt;h2 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h2&gt;
+&lt;p&gt;Set up the Hugo environment (installation, site creation, theme integration). Connect the local repository to GitHub. Configure the social section with academic profiles (ORCID, Google Scholar, Mendeley, eLibrary). Add custom icons if necessary. Set up deployment via GitHub Pages.&lt;/p&gt;
+&lt;h2 id=&#34;steps-completed&#34;&gt;Steps Completed&lt;/h2&gt;
+&lt;h3 id=&#34;1-installing-hugo-extended&#34;&gt;1. Installing Hugo Extended&lt;/h3&gt;
+&lt;p&gt;The following command was used in the system:&lt;/p&gt;
 &lt;p&gt;sudo apt update &amp;amp;&amp;amp; sudo apt install hugo &amp;amp;&amp;amp; hugo version&lt;/p&gt;
-&lt;h3 id=&#34;2-создание-нового-сайта&#34;&gt;2. Создание нового сайта&lt;/h3&gt;
+&lt;h3 id=&#34;2-creating-a-new-site&#34;&gt;2. Creating a new site&lt;/h3&gt;
 &lt;p&gt;hugo new site my-site &amp;amp;&amp;amp; cd my-site&lt;/p&gt;
-&lt;h3 id=&#34;3-инициализация-git-и-подключение-темы-academic-cv&#34;&gt;3. Инициализация Git и подключение темы Academic CV&lt;/h3&gt;
+&lt;h3 id=&#34;3-initializing-git-and-adding-the-academic-cv-theme&#34;&gt;3. Initializing Git and adding the Academic CV theme&lt;/h3&gt;
 &lt;p&gt;git init &amp;amp;&amp;amp; git submodule add 
  themes/blox-builder&lt;/p&gt;
-&lt;h3 id=&#34;4-настройка-конфигурации&#34;&gt;4. Настройка конфигурации&lt;/h3&gt;
-&lt;p&gt;Были отредактированы следующие файлы в папке config/_default/:&lt;/p&gt;
-&lt;p&gt;hugo.yaml (базовые параметры сайта):
+&lt;h3 id=&#34;4-configuration-setup&#34;&gt;4. Configuration setup&lt;/h3&gt;
+&lt;p&gt;The following files in the config/_default/ folder were edited:&lt;/p&gt;
+&lt;p&gt;hugo.yaml (basic site parameters):
 baseURL: &amp;ldquo;
 
-title: &amp;ldquo;Персональный сайт&amp;rdquo;
+title: &amp;ldquo;Personal Website&amp;rdquo;
 enableGitInfo: true&lt;/p&gt;
-&lt;p&gt;params.yaml (параметры темы):
+&lt;p&gt;params.yaml (theme parameters):
 appearance:
 theme_day: &amp;ldquo;minimal&amp;rdquo;
 theme_night: &amp;ldquo;minimal&amp;rdquo;
 font: &amp;ldquo;minimal&amp;rdquo;
 font_size: &amp;ldquo;l&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;menus.yaml (меню навигации):
+&lt;p&gt;menus.yaml (navigation menu):
 main:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;name: &amp;ldquo;Главная&amp;rdquo;
+&lt;li&gt;name: &amp;ldquo;Home&amp;rdquo;
 url: &amp;ldquo;/&amp;rdquo;
 weight: 10&lt;/li&gt;
-&lt;li&gt;name: &amp;ldquo;Проекты&amp;rdquo;
+&lt;li&gt;name: &amp;ldquo;Projects&amp;rdquo;
 url: &amp;ldquo;/project/&amp;rdquo;
 weight: 30&lt;/li&gt;
-&lt;li&gt;name: &amp;ldquo;Посты&amp;rdquo;
+&lt;li&gt;name: &amp;ldquo;Posts&amp;rdquo;
 url: &amp;ldquo;/post/&amp;rdquo;
 weight: 40&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;5-добавление-профилей-в-authorsadmin_indexmd&#34;&gt;5. Добавление профилей в authors/admin/_index.md&lt;/h3&gt;
-&lt;p&gt;В секцию social были добавлены следующие ссылки:&lt;/p&gt;
+&lt;h3 id=&#34;5-adding-profiles-to-authorsadmin_indexmd&#34;&gt;5. Adding profiles to authors/admin/_index.md&lt;/h3&gt;
+&lt;p&gt;The following links were added to the social section:&lt;/p&gt;
 &lt;p&gt;social:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;icon: &amp;ldquo;orcid&amp;rdquo;
@@ -137,8 +137,8 @@ icon_pack: &amp;ldquo;fab&amp;rdquo;
 link: &amp;ldquo;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;6-настройка-деплоя-через-github-pages&#34;&gt;6. Настройка деплоя через GitHub Pages&lt;/h3&gt;
-&lt;p&gt;В корне сайта создан файл .github/workflows/hugo.yaml со следующим содержимым:&lt;/p&gt;
+&lt;h3 id=&#34;6-setting-up-deployment-via-github-pages&#34;&gt;6. Setting up deployment via GitHub Pages&lt;/h3&gt;
+&lt;p&gt;A file .github/workflows/hugo.yaml was created in the site root with the following content:&lt;/p&gt;
 &lt;p&gt;name: Deploy Hugo site to Pages
 on:
 push:
@@ -175,36 +175,40 @@ runs-on: ubuntu-latest
 needs: build
 steps:
 - uses: actions/deploy-pages@v4&lt;/p&gt;
-&lt;h3 id=&#34;7-публикация&#34;&gt;7. Публикация&lt;/h3&gt;
-&lt;p&gt;После каждого git push сайт автоматически собирается и становится доступен по адресу: 
+&lt;h3 id=&#34;7-publishing&#34;&gt;7. Publishing&lt;/h3&gt;
+&lt;p&gt;After each git push, the site is automatically built and becomes available at: 
 &lt;/p&gt;
-&lt;h2 id=&#34;результат&#34;&gt;Результат&lt;/h2&gt;
-&lt;p&gt;Сайт полностью функционирует. Иконки социальных сетей отображаются корректно. Добавлены посты и страницы проектов. Настроен автоматический деплой.&lt;/p&gt;
-&lt;h2 id=&#34;использованные-ресурсы&#34;&gt;Использованные ресурсы&lt;/h2&gt;
-&lt;p&gt;Документация Hugo (
-, Тема Academic CV (
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;The site is fully functional. Social network icons display correctly. Posts and project pages have been added. Automatic deployment is configured.&lt;/p&gt;
+&lt;h2 id=&#34;resources-used&#34;&gt;Resources Used&lt;/h2&gt;
+&lt;p&gt;Hugo Documentation (
+, Academic CV Theme (
 , GitHub Pages + Hugo (
-, FontAwesome иконки (
+, FontAwesome Icons (
 , Academic Icons (
 )&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Stepic cource</title>
+      <title>Stepic Course</title>
       <link>http://localhost:1313/site/projects/stepic-cource/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/site/projects/stepic-cource/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Проект:&lt;/strong&gt; Прохождение внешнего онлайн‑курса на платформе Stepik, направленного на формирование и закрепление практических навыков работы в операционной системе Linux.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Освоенные темы:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;базовые принципы Linux и навигация в командной строке;
-работа с пакетными менеджерами, файловыми операциями и архивами;
-основы взаимодействия с удалёнными серверами, использование SSH и tmux;
-написание Bash‑скриптов, обработка текстовых данных, автоматизация повторяющихся задач.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Итоги:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;успешно решены теоретические тесты и выполнены интерактивные задания в терминальной среде;
-составлен итоговый отчёт с пояснениями и подтверждающими скриншотами(см. ссылку на git);
-закреплены практические навыки, необходимые для решения учебных задач, администрирования серверов и организации воспроизводимого технического рабочего процесса.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Project:&lt;/strong&gt; Completion of an external online course on the Stepik platform, aimed at developing and reinforcing practical skills in working with the Linux operating system.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;basic principles of Linux and command-line navigation;&lt;/li&gt;
+&lt;li&gt;working with package managers, file operations, and archives;&lt;/li&gt;
+&lt;li&gt;fundamentals of interacting with remote servers, using SSH and tmux;&lt;/li&gt;
+&lt;li&gt;writing Bash scripts, text data processing, automation of repetitive tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;successfully passed theoretical tests and completed interactive assignments in a terminal environment;&lt;/li&gt;
+&lt;li&gt;compiled a final report with explanations and confirming screenshots (see the git link);&lt;/li&gt;
+&lt;li&gt;reinforced practical skills necessary for solving educational tasks, server administration, and organizing reproducible technical workflows.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
